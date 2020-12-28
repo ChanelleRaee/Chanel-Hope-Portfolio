@@ -1,0 +1,169 @@
+
+/*Common CSS*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+ }
+
+ 
+ 
+
+
+
+  /*--- navigation bar ---*/
+  .navbar {
+    background: #777777;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    font-family: georgia;
+    font-size: 25px;
+
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #4aaaa5;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+   
+
+a {
+    color: #777777;
+    font-family: helvetica;
+    
+}
+
+
+hr {
+    background-color:  #cccccc;
+    height: 1px;
+
+}
+
+
+
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia;
+
+}
+
+
+.main-content {
+    background-color: #ffffff;
+    position: relative;
+    top: 40px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    width: 960px;
+    text-align: left;
+    color: #777777;
+    border: 2px solid #dddddd;
+    font-family: Helvetica;
+    padding: 15px;
+
+}
+
+
+.page-footer {
+padding: 50px;
+background-color: #666666;
+border-top: 8px solid #4aaaa5;
+height: 50px;
+margin-top: -50px;
+margin: -10px;
+
+}
+
+
+/*CSS for portfolio page*/
+
+.main-container {
+    background-color: #ffffff;
+    position: relative;
+    top: 40px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 960px;
+    text-align: left;
+    color: #777777;
+    border: 2px solid #dddddd;
+    font-family: Helvetica;
+    padding: 15px;
+    
+
+}
+
+
+
+
+/*contact submission form*/
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 16px;
+
+    
+  }
+
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #777777;
+    
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    width: 960px;
+    font-family: Helvetica;
+    color:  #777777;
+    position: relative;
+    top: 40px;
+    border: 2px solid #dddddd;
+    
+    
+  }
+
+  
+
+  
